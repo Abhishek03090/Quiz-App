@@ -1,0 +1,141 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    top: -20px;
+    color: #9f9c9c;
+}
+
+.login-container {
+    display: block;
+    box-shadow: black;
+    box-sizing: content-box;
+    background-color: rgb(236, 236, 236);
+    width: 300px;
+    border: 10px solid rgb(198, 194, 194);
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    color: #9f9c9c;
+}
+
+.space {
+    height: 20px;
+}
+
+.quiz-container {
+    display: none;
+    color: #9f9c9c;
+    background-color: #f0f0f0;
+    
+}
+
+.quiz-header {
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.quiz-content {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.quiz-image {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.quiz-image-inner {
+    width: 80px; /* Adjust the size of the image */
+}
+
+.quiz-questions {
+    padding: 20px;
+    text-align: left;
+    color: #9f9c9c;
+}
+
+h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust the font size */
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust the font size */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.options label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px; /* Adjust the font size */
+}
+
+.log{
+    
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: #f0f0f0;
+    height: 20px;
+   
+
+    
+
+}

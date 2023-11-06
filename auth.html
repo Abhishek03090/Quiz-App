@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="auth.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Quiz App Sign Up</h1>
+    <form id="signup-form">
+        <div class="quiz-image">
+            <img src="C:\Users\Lenovo\Downloads\download.png" alt="Quiz Image" class="quiz-image-inner">
+        </div>
+        <label for="new-username">Choose a Username:</label>
+        <input type="text" id="new-username" required>
+        <br>
+        <label for="new-password">Create a Password:</label>
+        <input type="password" id="new-password" required>
+        <br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" required>
+        <br>
+        <button type="button" id="submit-button">Sign Up</button>
+    </form>
+    <p id="error-message" style="color: red;"></p>
+    <p>Already have an account? <a href="quiz.html">Sign In</a></p> <!-- Link to your sign-in page -->
+    <script src="auth.js"></script>
+</body>
+</html>
